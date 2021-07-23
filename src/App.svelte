@@ -6,11 +6,18 @@
 	import Events from "./components/Events.svelte";
 	import Contact from "./components/Contact.svelte";
 	import Register from "./components/Register.svelte";
+import About from "./components/About.svelte";
 </script>
 
 <Route path="/">
 	<Main>
 		<Home />
+	</Main>
+</Route>
+
+<Route path="/about">
+	<Main>
+		<About />
 	</Main>
 </Route>
 

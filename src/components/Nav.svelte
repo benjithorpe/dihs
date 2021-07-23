@@ -3,9 +3,13 @@
 </script>
 
 <nav>
-  <div class="logo">D.I.H.S</div>
+  <div class="logo">
+    <img src="../../assets/school-badge.png" alt="School Badge">
+    D.I.H.S
+  </div>
   <ul class:showNav>
     <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
     <li><a href="/events">Events</a></li>
     <li><a href="/contact">Contact</a></li>
     <li><a href="/register">Register</a></li>
@@ -23,6 +27,13 @@
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
     font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: .25em;
+  }
+  .logo img{
+    width: 3em;
+    height: auto;
   }
   nav {
     height: 10vh;
@@ -58,7 +69,7 @@
     gap: 0.4rem;
   }
   .showNav {
-    height: 15em;
+    height: 17em;
   }
   .menu div {
     width: 2.75em;
