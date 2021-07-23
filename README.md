@@ -1,2 +1,1 @@
-# dihs
-Dynamic International High School
+# Dynamic International High School

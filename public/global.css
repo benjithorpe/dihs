@@ -1,0 +1,33 @@
+*, *::after, *::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+body{
+	background-color: #f4f4f4;
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	/* font-family: "Roboto", "Arial", sans-serif;  */
+}
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+a:hover { color: blue; }
+nav, header, footer, main{ background-color: #fcfcfc; }
+
+@media (min-width: 768px){
+	nav, header, footer, main{
+		max-width: 90%;
+		margin: auto;
+	}
+}
+@media (min-width: 992px){
+	nav, header, footer, main{ max-width: 75%; }
+}
+@media (min-width: 1200px){
+	nav, header, footer, main{ max-width: 70%; }
+}
