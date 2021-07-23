@@ -19,7 +19,7 @@
 
 <style>
   .logo {
-    color: rgb(165, 157, 86);
+    color: navy;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
     font-size: 2rem;

@@ -7,7 +7,7 @@
               Nam provident, sed nesciunt aspernatur necessitatibus recusandae.`,
     },
     {
-      title: "Another heading here",
+      title: "Electronic teaching",
       summary: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Nam provident, sed nesciunt aspernatur necessitatibus recusandae.`,
     },
@@ -50,6 +50,7 @@
   }
   h2 {
     font-weight: normal;
+    text-transform: capitalize;
     font-size: 1.75rem;
     margin-bottom: 0.75em;
     color: rgb(47, 106, 155);
