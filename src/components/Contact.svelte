@@ -2,7 +2,7 @@
 
 <section>
   <h1>Contact</h1>
-  <form netlify on:submit|preventDefault>
+  <form netlify>
     <div>
       <label for="">Name</label>
       <input type="text" name="name" placeholder="John Doe" />
@@ -24,7 +24,7 @@
     </div>
 
     <div>
-      <button>Send Message</button>
+      <button type="submit">Send Message</button>
     </div>
   </form>
 </section>
