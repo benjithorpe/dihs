@@ -1,0 +1,11 @@
+h1{
+  text-align: center;
+  padding: .75em 0;
+}
+article{
+  padding: 1em;
+}
+section{
+  font-size: 1.65rem;
+  line-height: 1.5;
+}
