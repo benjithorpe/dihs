@@ -6,40 +6,55 @@
 	<title>Dynamic International High School</title>
 
 	<link rel='icon' type='image/png' href='assets/school-badge.png'>
-	<link rel='stylesheet' href='css/global.css'>
-	<link rel='stylesheet' href='css/index.css'>
-	<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> -->
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/css/uikit.min.css" />
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit.min.js"></script>
+	<!-- UIkit Icons -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit-icons.min.js"></script>
 
-	<script defer src='js/menu.js'></script>
+
+	<!-- <link rel='stylesheet' href='css/global.css'>
+	<link rel='stylesheet' href='css/index.css'> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> -->
+	<!-- <script defer src='js/menu.js'></script> -->
 </head>
 
 <body>
-	<nav>
-		<div class="logo">
-			<img src="./assets/school-badge.png" alt="School Badge">
-			D.I.H.S
+	<nav class="uk-navbar-container" uk-navbar>
+		<!-- logo -->
+		<div class="uk-navbar-left uk-margin-large-left">
+			<a href="index.html" class="uk-logo">D.I.H.S</a>
 		</div>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="events.html">Events</a></li>
-			<li><a href="contact.html">Contact</a></li>
-			<li><a href="register.html">Register</a></li>
-		</ul>
-		<div class="menu">
-			<div></div>
-			<div></div>
-			<div></div>
+		<!-- menu toggle -->
+		<div class="uk-navbar-right uk-margin-large-right">
+			<a class="uk-navbar-toggle" href="#" uk-toggle="target: #offcanvas-nav-primary">
+				<span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
+			</a>
+		</div>
+		<!-- menu items -->
+		<div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+			<div class="uk-offcanvas-bar uk-flex uk-flex-column">
+				<ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+					<li class="uk-active"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 
-	<header>
-		<h1>Dynamic International High School</h1>
-		<h3 class="motto">
-			<span>Motto:</span> &ldquo;There is Dignity in Learning.&rdquo;
-		</h3>
-		<p class="address">20 UN drive, off Wilkinson Road, Freetown, Sierra Leone</p>
-		<a href="register.html" class="cta">Register Now!</a>
+	<!-- <img src="./assets/school-badge.png" alt="School Badge"> -->
+	<header class="uk-container">
+		<div class="uk-height-large uk-flex uk-flex-column uk-flex-center uk-flex-middle uk-background-cover uk-light"
+   			 data-src="./assets/classroom.jpg" uk-img>
+			<div>
+				<h1 class="uk-text-center">Dynamic International High School</h1>
+				<p class="uk-text-center"><b>Motto:</b> &ldquo;There is Dignity in Learning.&rdquo;</p>
+				<address class="uk-text-center">20 UN drive, off Wilkinson Road, Freetown, Sierra Leone</address>
+			</div>
+		</div>
 	</header>
 
 	<main>
